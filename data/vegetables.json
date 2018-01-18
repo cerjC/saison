@@ -1,0 +1,105 @@
+[{
+	"name": "radis",
+	"saison": "été",
+	"mois": 11,
+	"available": true,
+	"thumb": "content/img/radis.png"
+}, {
+	"name": "poireaux",
+	"thumb": "content/img/poiro.jpg",
+	"saison": "hiver",
+	"mois": 10,
+	"available": true
+}, {
+	"name": "carottes",
+	"thumb": "content/img/karotte.png",
+	"saison": "automne",
+	"mois": 5,
+	"available": true
+}, {
+	"name": "tomate",
+	"saison": "hiver",
+	"mois": 3,
+	"available": true,
+	"thumb": "content/img/tomate.png"
+}, {
+	"name": "conconbre",
+	"thumb": "content/img/conconbre.png",
+	"saison": "hiver",
+	"mois": 7,
+	"available": true
+}, {
+	"name": "pois",
+	"thumb": "content/img/pois.png",
+	"saison": "printemps",
+	"mois": 8,
+	"available": true
+}, {
+	"name": "betterave",
+	"thumb": "content/img/betterave.jpg",
+	"saison": "hiver",
+	"mois": 12,
+	"available": true
+}, {
+	"name": "cresson",
+	"thumb": "content/img/cresson.jpg",
+	"saison": "printemps",
+	"mois": 2,
+	"available": true
+}, {
+	"name": "aubergine",
+	"thumb": "content/img/zouzbergine.jpg",
+	"saison": "été",
+	"mois": 4,
+	"available": true
+}
+, {
+	"name": "laitue",
+	"thumb": "content/img/laitue.jpg",
+	"saison": "printems",
+	"mois": 9,
+	"available": true
+}
+, {
+	"name": "avocat",
+	"thumb": "content/img/avoca.jpg",
+	"saison": "été",
+	"mois": 7,
+	"available": true
+}
+, {
+	"name": "banane",
+	"thumb": "content/img/banane.jpg",
+	"saison": "hiver",
+	"mois": 2,
+	"available": true
+}
+, {
+	"name": "citron",
+	"thumb": "content/img/citron.jpg",
+	"saison": "hiver",
+	"mois": 10,
+	"available": true
+}
+, {
+	"name": "menthe",
+	"thumb": "content/img/menthe.jpg",
+	"saison": "été",
+	"mois": 6,
+	"available": true
+}
+, {
+	"name": "poivron",
+	"thumb": "content/img/poivron.jpg",
+	"saison": "été",
+	"mois": 8,
+	"available": true
+}
+, {
+	"name": "piment",
+	"thumb": "content/img/piment.jpg",
+	"saison": "été",
+	"mois": 4,
+	"available": true
+}
+]

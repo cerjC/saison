@@ -1,0 +1,22 @@
+<div class="content">
+  <button ng-click="order = 'name'">Ranger par nom</button>
+  <button ng-click="order = 'saison'">Ranger par saison</button>
+  <input type="text" ng-model="search"/>
+
+     <ul id="veg-list">
+      <li ng-repeat="vege in vegetables | orderBy: order | filter : search" ng-show="vege.available">
+      <img ng-src="{{vege.thumb}}" style="margin: -12px 10px 0 0; float: left;width: 50px;"
+            ng-show="vege.thumb"/>
+      <h3>  {{vege.name}} - {{vege.saison }}</h3>
+      <div class="remove" ng-click="removeVeg(vege)">x</div>
+      <span class="belt" style="background: {{vege.color}}">{{vege.color}}</span>
+        </li>
+    </ul>
+    <form ng-submit="addNewVeg()">
+      <input type="text" placeholder="Name" ng-model="newveg.name"/>
+      <input type="text" placeholder="color" ng-model="newveg.color"/>
+      <input type="text" placeholder="prix" ng-model="newveg.prix"/>
+      <input type="submit" value="Add a vegetable" />
+    </form>
+    <a href="" ng-click="removeAll()">Remove all vegetables</a>
+</div>
