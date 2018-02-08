@@ -1,11 +1,14 @@
 body{
+  min-height: 100%;
   font-family: Helvetica;
   margin: 0;
 }
 
+
 h1,h2,h3{
   margin: 0;
 }
+
 
 .belt{
   padding: 5px 10px;
@@ -15,15 +18,24 @@ h1,h2,h3{
   font-size: 15px;
   text-transform: uppercase;
 }
+.belto{
+  margin-top: -17px;
+  padding: 0px 0px;
+  border-radius: 10px;
+  margin-left: 5px;
+  color: #fff;
+  font-size: 15px;
+  text-transform: uppercase;
+}
 
 #menu-bar{
-  background: #2bed14;
+  background: #00cc00;
   color: #fff;
   padding: 10px;
 }
 
 #menu-bar h1{
-  font-size: 24px;
+  font-size:50px;
   font-weight: normal;
   display: inline-block;
 }
@@ -37,13 +49,35 @@ h1,h2,h3{
 
 #menu-bar li{
   float: right;
-  margin-left: 20px;
+  margin-left: 100px;
+  margin-top: 25px;
+  font-size: 22px;
 }
 
 #menu-bar a{
   color: #fff
 }
 
+#footer-bar
+{
+background: #00cc00;
+color: #fff;
+padding: 10px;
+}
+
+#footer-bar ul{
+  float: right;
+  list-style-type: none;
+  padding: 0;
+  margin: 6px 0;
+}
+
+#footer-bar li{
+  float: right;
+  margin-left: 63px;
+  margin-top: 25px;
+  font-size: 22px;
+}
 main{
   background: #eee;
   width: 80%;
@@ -54,6 +88,12 @@ main{
 .content{
   padding: 20px;
   overflow: hidden;
+}
+.content p
+{
+  margin: 20px 15px 30px;
+  font-size: 132%;
+  font-family: "Bitstream Vera Sans";
 }
 
 .content button,
@@ -93,7 +133,6 @@ main{
 }
 
 .content input{
-  width: 90%;
   padding: 10px 5%;
   border-radius: 10px;
   border: 2px solid #ddd;
@@ -106,17 +145,6 @@ main{
   margin: 15px auto;
 }
 
-.remove{
-  float: right;
-  padding: 5px;
-  background: #fff;
-  width: 18px;
-  text-align: center;
-  border-radius: 20px;
-  color: crimson;
-  cursor: pointer;
-  margin-left: 10px;
-}
 
 /*ANIMATION*/
 
@@ -160,5 +188,55 @@ main.ng-enter.ng-enter-active {
 #veg-list li.ng-leave-stagger
 {
   transition-delay: 0.2s;
-  transition-duration: 0;
+  transition-duration: 0s;
+}
+
+#hiver{
+  background: cyan ;
+}
+#automne{
+  background: darkorange ;
+}
+#printemps{
+  background: chartreuse ;
+}
+#ete{
+  background: gold ;
+}
+
+#janvier{
+  background: cyan;
+}
+#fevrier{
+  background: cyan;
+}
+#mars{
+  background: chartreuse;
+}
+#avril{
+  background: chartreuse ;
+}
+#mai{
+  background: chartreuse;
+}
+#juin{
+  background: gold;
+}
+#juillet{
+    background: gold ;
+  }
+#aout{
+  background: gold;
+}
+#septembre{
+  background: darkorange;
+}
+#octobre{
+  background: darkorange ;
+}
+#novembre{
+  background: darkorange;
+}
+#decembre{
+  background: cyan ;
 }

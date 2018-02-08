@@ -1,105 +1,297 @@
-[{
-	"name": "radis",
-	"saison": "été",
-	"mois": 11,
+[
+	{
+	"name": "Radis",
+	"saison": ["hiver","automne","ete","printemps"],
+	"mois": ["janvier","fevrier","mars","avril","mai","juin",
+					"juillet","aout","septembre",
+					"octobre","novembre","decembre"],
 	"available": true,
-	"thumb": "content/img/radis.png"
-}, {
-	"name": "poireaux",
-	"thumb": "content/img/poiro.jpg",
-	"saison": "hiver",
-	"mois": 10,
+	"thumb": "content/img/radish.png"
+	}
+,
+	{
+	"name": "Poireaux",
+	"thumb": "content/img/leek.png",
+	"saison": ["hiver","automne"],
+	"mois": ["janvier","fevrier","mars","septembre","octobre","novembre","decembre"],
+	"available": true
+	}
+,
+	{
+	"name": "Carotte",
+	"thumb": "content/img/carrot.png",
+	"saison": ["hiver","automne","printemps"],
+	"mois": ["janvier","fevrier","mars","avril","aout","septembre",
+					"octobre","novembre","decembre"],
 	"available": true
 }, {
-	"name": "carottes",
-	"thumb": "content/img/karotte.png",
-	"saison": "automne",
-	"mois": 5,
-	"available": true
-}, {
-	"name": "tomate",
-	"saison": "hiver",
-	"mois": 3,
+	"name": "Tomate",
+	"saison": ["ete"],
+	"mois": ["juin","juillet","aout","septembre"],
 	"available": true,
-	"thumb": "content/img/tomate.png"
+	"thumb": "content/img/tomato.png"
 }, {
-	"name": "conconbre",
-	"thumb": "content/img/conconbre.png",
-	"saison": "hiver",
-	"mois": 7,
-	"available": true
-}, {
-	"name": "pois",
-	"thumb": "content/img/pois.png",
-	"saison": "printemps",
-	"mois": 8,
+	"name": "Concombre",
+	"thumb": "content/img/cucumber.png",
+	"saison": ["ete","printemps"],
+	"mois": ["mai","juin",
+					"juillet","aout","septembre"],
 	"available": true
 }, {
-	"name": "betterave",
-	"thumb": "content/img/betterave.jpg",
-	"saison": "hiver",
-	"mois": 12,
+	"name": "Pois",
+	"thumb": "content/img/beans.png",
+	"saison": ["ete"],
+	"mois": ["juin","juillet"],
 	"available": true
-}, {
-	"name": "cresson",
-	"thumb": "content/img/cresson.jpg",
-	"saison": "printemps",
-	"mois": 2,
+},
+ {
+	"name": "Betterave",
+	"thumb": "content/img/betterav.png",
+	"saison": ["hiver"],
+	"mois": ["janvier","fevrier","mars","avril","mai","juin",
+					"juillet","aout","septembre",
+					"octobre","novembre","decembre"],
 	"available": true
-}, {
-	"name": "aubergine",
-	"thumb": "content/img/zouzbergine.jpg",
-	"saison": "été",
-	"mois": 4,
+},
+ {
+	"name": "Salade",
+	"thumb": "content/img/salad.png",
+	"saison": ["printemps"],
+	"mois": ["janvier"],
 	"available": true
-}
-, {
-	"name": "laitue",
-	"thumb": "content/img/laitue.jpg",
-	"saison": "printems",
-	"mois": 9,
-	"available": true
-}
-, {
-	"name": "avocat",
-	"thumb": "content/img/avoca.jpg",
-	"saison": "été",
-	"mois": 7,
+},
+ {
+	"name": "Aubergine",
+	"thumb": "content/img/aubergine.png",
+	"saison": ["ete"],
+	"mois": ["mai","juin",
+					"juillet","aout","septembre"],
 	"available": true
 }
 , {
-	"name": "banane",
-	"thumb": "content/img/banane.jpg",
-	"saison": "hiver",
-	"mois": 2,
+	"name": "Laitue",
+	"thumb": "content/img/cabbage.png",
+	"saison": ["ete","printemps"],
+	"mois": ["avril","mai","juin",
+					"juillet","aout","septembre",
+					"octobre"],
 	"available": true
 }
 , {
-	"name": "citron",
-	"thumb": "content/img/citron.jpg",
-	"saison": "hiver",
-	"mois": 10,
+	"name": "Avocat",
+	"thumb": "content/img/avocado.png",
+	"saison":["hiver","automne","printemps"],
+	"mois": ["janvier","fevrier","mars","avril","octobre","novembre","decembre"],
 	"available": true
 }
 , {
-	"name": "menthe",
-	"thumb": "content/img/menthe.jpg",
-	"saison": "été",
-	"mois": 6,
+	"name": "Banane",
+	"thumb": "content/img/banana.png",
+	"saison": ["hiver","automne","ete","printemps"],
+	"mois": ["janvier","fevrier","mars","avril","mai","juin",
+					"juillet","aout","septembre",
+					"octobre","novembre","decembre"],
 	"available": true
 }
 , {
-	"name": "poivron",
-	"thumb": "content/img/poivron.jpg",
-	"saison": "été",
-	"mois": 8,
+	"name": "Citron",
+	"thumb": "content/img/lemon.png",
+	"saison": ["hiver","automne","ete","printemps"],
+	"mois": ["janvier","fevrier","mars","avril","mai","juin",
+					"juillet","aout","septembre",
+					"octobre","novembre","decembre"],
 	"available": true
 }
 , {
-	"name": "piment",
-	"thumb": "content/img/piment.jpg",
-	"saison": "été",
-	"mois": 4,
+	"name": "Broccoli",
+	"thumb": "content/img/broccoli.png",
+	"saison": ["automne","ete"],
+	"mois": ["juin","juillet","aout","septembre","octobre"],
 	"available": true
 }
+, {
+	"name": "Poivron",
+	"thumb": "content/img/pepper.png",
+	"saison": ["ete"],
+	"mois": ["juin",
+					"juillet","aout","septembre"],
+	"available": true
+}
+, {
+	"name": "Piment",
+	"thumb": "content/img/chili.png",
+	"saison": ["ete"],
+	"mois": ["janvier","fevrier","mars","avril","mai","juin",
+					"juillet","aout","septembre",
+					"octobre","novembre","decembre"],
+	"available": true
+},
+	{
+		"name": "Framboise",
+		"thumb": "content/img/raspberry.png",
+		"saison": ["ete"],
+		"mois" : ["juin","juillet","aout","septembre"],
+		"available":true
+	},
+	{
+		"name":"Oignon",
+		"thumb":"content/img/belonion.png",
+		"saison":["hiver"],
+		"mois":["janvier","fevrier","mars","avril","mai","juin",
+						"juillet","aout","septembre",
+						"octobre","novembre","decembre"],
+		"available":true
+	},
+	{
+		"name":"Chou-fleur",
+		"thumb":"content/img/choufleur.png",
+		"saison":["hiver"],
+		"mois":["janvier","fevrier","mars","avril","mai","juin",
+						"juillet","aout","septembre",
+						"octobre","novembre","decembre"],
+		"available":true
+	},
+	{
+		"name":"Courgette",
+		"thumb":"content/img/courgette.png",
+		"saison":["ete"],
+		"mois":["juin",
+						"juillet","aout","septembre"],
+		"available":true
+	},
+	{
+		"name":"Ail",
+		"thumb":"content/img/garlic.png",
+		"saison":["ete","printemps"],
+		"mois": ["avril","mai","juin",
+						"juillet","aout"],
+		"available":true
+	},
+	{
+		"name":"Raisin",
+		"thumb":"content/img/grapes.png",
+		"saison":["automne"],
+		"mois":["septembre","octobre"],
+		"available":true
+	},
+	{
+		"name":"Noisette",
+		"thumb":"content/img/hazelnut.png",
+		"saison":["automne"],
+		"mois":["aout","septembre","octobre"],
+		"available":true
+	},
+	{
+		"name":"Kiwi",
+		"thumb":"content/img/kiwi.png",
+		"saison":["hiver","automne","printemps"],
+		"mois":["janvier","fevrier","mars","avril","mai","novembre","decembre"],
+		"available":true
+	},
+	{
+     "name":"Olive",
+		"thumb":"content/img/olive.png",
+		"saison":["ete"],
+		"mois":["mai"],
+		"available":true
+	},
+	{
+		"name":"Orange",
+		"thumb":"content/img/orange.png",
+		"saison":["hiver"],
+		"mois":  ["janvier","fevrier","novembre","decembre"],
+		"available":true
+	},
+	{
+		"name":"Panais",
+		"thumb":"content/img/panet.png",
+		"saison":["automne","hiver"],
+		"mois": ["janvier","fevrier","septembre","octobre","novembre","decembre"],
+		"available":true
+	},
+	{
+    "name":"Ananas",
+		"thumb":"content/img/pineapple.png",
+		"saison":["ete"],
+		"mois": ["janvier","fevrier","mars","avril","mai","juin","juillet","aout","septembre","octobre","novembre","decembre"],
+		"available":true
+	},
+	{
+				"name":"Patate",
+		"thumb":"content/img/potatoes.png",
+		"saison":["automne","hiver"],
+		"mois":  ["janvier","fevrier","mars","avril","mai","juin",
+						"juillet","aout","septembre",
+						"octobre","novembre","decembre"],
+		"available":true
+	},
+	{
+		"name":"Citrouille",
+		"thumb":"content/img/pumpkin.png",
+		"saison":["automne","hiver"],
+		"mois": ["janvier","fevrier","septembre",
+						"octobre","novembre","decembre"],
+		"available":true
+	},
+	{
+		"name":"Cerise",
+		"thumb":"content/img/cherries.png",
+		"saison":["ete","printemps"],
+		"mois": ["mai","juin",
+						"juillet"],
+		"available":true
+	},
+	{
+		"name":"Fraise",
+		"thumb":"content/img/strawberry.png",
+		"saison":["ete","printemps"],
+		"mois": ["mai","juin",
+						"juillet","aout","septembre"],
+		"available":true
+	},
+	{
+		"name":"Abricot",
+		"thumb":"content/img/apricot.png",
+		"saison":["ete"],
+		"mois":["juillet","aout"],
+		"available":true
+	},
+	{
+		"name":"Artichaud",
+		"thumb":"content/img/artichoke.png",
+		"saison":["ete"],
+		"mois":["juillet","aout","septembre"],
+		"available":true
+	},
+	{
+		"name":"Figue",
+		"thumb":"content/img/fig.png",
+		"saison":["automne"],
+		"mois":["aout","septembre","octobre"],
+		"available":true
+	},
+	{
+		"name":"Poire",
+		"thumb":"content/img/pear.png",
+		"saison":["hiver","automne"],
+		"mois":["janvier","septembre",
+						"octobre","novembre","decembre"],
+		"available":true
+	},
+	{
+		"name":"Pêche",
+		"thumb":"content/img/peach.png",
+		"saison":["ete"],
+		"mois":["juillet","aout","septembre"],
+		"available":true
+	},
+	{
+		"name":"Navet",
+		"thumb":"content/img/turnip.png",
+		"saison":["hiver","automne","printemps"],
+		"mois":["janvier","fevrier","mars","avril","mai",
+						"octobre","novembre","decembre"],
+		"available":true
+	}
+
 ]

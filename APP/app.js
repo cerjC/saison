@@ -7,7 +7,11 @@ myVegApp.config(['$routeProvider', function($routeProvider){
     templateUrl: 'views/homePage.html',
     controller:'VegController'
   })
-  .when('/octobre',{
+  .when('/mois',{
+      templateUrl: 'views/mois.html',
+      controller:'VegController'
+  })
+  .when('/saison',{
       templateUrl: 'views/saison.html',
       controller:'VegController'
   })
@@ -30,7 +34,7 @@ myVegApp.directive('randomVegetable' , [function(){
     transclude:true,
     replace:true,
     controller: function($scope){
-      $scope.random = Math.floor(Math.random() * 4);
+      $scope.random = Math.floor(Math.random() * 38);
     }
 
   };
